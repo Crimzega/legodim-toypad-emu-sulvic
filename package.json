@@ -1,0 +1,61 @@
+{
+	"name": "legodim-toypad-emu-sulvic",
+	"version": "1.0.0",
+	"description": "LEGO Dimensions ToyPad Emulator with integrated USB, HID, & serial transport support",
+	"private": true,
+	"license": "MIT",
+	"main": "src/app.js",
+	"engines": {
+		"node": ">=20.0.0",
+		"npm": ">=10.0.0"
+	},
+	"scripts": {
+		"start": "node src/app.js",
+		"dev": "node --watch src/app.js",
+		"test": "node --test",
+		"build:browser": "browserify browser.js --standalone ld -t babelify -o build/browser/node-ld.js && terser build/browser/node-ld.js --compress --mangle --output build/browser/node-ld.min.js.js",
+		"watch:browser": "watchify browser.js --standalone ld -t babelify -o build/browser/node-ld.js",
+		"clean": "rimraf build coverage"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Crimzega/legodim-toypad-emu-sulvic.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Crimzega/legodim-toypad-emu-sulvic/issues"
+	},
+	"homepage": "https://github.com/Crimzega/legodim-toypad-emu-sulvic#readme",
+	"keywords": [
+		"lego",
+		"lego-dimensions",
+		"toy-pad",
+		"emulator",
+		"nfc",
+		"hid",
+		"usb",
+		"socket.io"
+	],
+	"dependencies": {
+		"async": "^3.2.0",
+		"debug": "^4.4.0",
+		"express": "^5.2.0",
+		"node-hid": "^3.4.0",
+		"pad": "^3.3.0",
+		"serialport": "^13.0.0",
+		"socket.io": "^4.8.0",
+		"usb": "^3.1.0"
+	},
+	"optionalDependencies": {
+		"bufferutil": "^4.1.0",
+		"utf-8-validate": "^6.0.6"
+	},
+	"devDependencies": {
+		"@babel/core": "^8.0.0",
+		"@babel/preset-env": "8.0.0",
+		"babelify": "^10.0.0",
+		"browserify": "^17.0.0",
+		"rimraf": "^6.1.0",
+		"terser": "^5.51.0",
+		"watchify": "^4.0.0"
+	}
+}

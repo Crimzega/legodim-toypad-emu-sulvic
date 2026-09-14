@@ -1,0 +1,198 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Crimzega/legodim-toypad-emu-sulvic/schemas/pack-schema.json",
+	"starter": {
+		"type": "starter",
+		"ids": [71170, 71171, 71172, 71173, 71174],
+		"characters": [1, 2, 3],
+		"tokens": [1006, 1007, 1008],
+		"release": "y1-w1"
+	},
+	"bttf_level":{
+		"type": "level",
+		"id": 71201,
+		"character": 31,
+		"tokens": [1012, 1013, 1014, 1015, 1016, 1017],
+		"release": "y1-w1"
+	},
+	"simpsons_level": {
+		"type": "level",
+		"id": 71202,
+		"character": 21,
+		"tokens": [1045, 1046, 1047, 1048, 1049, 1050],
+		"release": "y1-w1"
+	},
+	"portal2_level": {
+		"type": "level",
+		"id": 71203,
+		"character": 9,
+		"tokens": [1081, 1082, 1083, 1084, 1085, 1086], 
+		"release": "y1-w1"
+	},
+	"jurrasic_world_team": {
+		"type": "team",
+		"id": 71205,
+		"characters": [25, 33],
+		"tokens": [1051, 1052, 1053, 1054, 1055, 1056],
+		"release": "y1-w1"
+	},
+	"scooby_doo_team": {
+		"type": "team",
+		"id": 71206,
+		"characters": [36, 38],
+		"tokens": [1066, 1067, 1068, 1087, 1088, 1089],
+		"release": "y1-w1"
+	},
+	"dc_comics_fun1": {
+		"type": "fun",
+		"id": 71209,
+		"character": 43,
+		"tokens": [1093, 1094, 1095],
+		"release": "y1-w1"
+	},
+	"dc_comics_fun2": {
+		"type": "fun",
+		"id": 71210,
+		"character": 12,
+		"tokens": [1024, 1025, 1026],
+		"release": "y1-w1"
+	},
+	"lego_movie_fun1": {
+		"type": "fun",
+		"id": 71212,
+		"character": 16,
+		"tokens": [1033, 1034, 1035],
+		"release": "y1-w1"
+	},
+	"lego_movie_fun2": {
+		"type": "fun",
+		"id": 71213,
+		"character": 5,
+		"tokens": [1000, 1001, 1002],
+		"release": "y1-w1"
+	},
+	"lego_movie_fun3": {
+		"type": "fun",
+		"id": 71214,
+		"character": 8,
+		"tokens": [1009, 1010, 1011],
+		"release": "y1-w1"
+	},
+	"ninjago_fun1": {
+		"type": "fun",
+		"id": 71215,
+		"character": 1,
+		"tokens": [1072, 1073, 1074],
+		"release": "y1-w1"
+	},
+	"ninjago_fun2": {
+		"type": "fun",
+		"id": 71216,
+		"character": 1,
+		"tokens": [1078, 1079, 1080],
+		"release": "y1-w1"
+	},
+	"ninjago_fun3": {
+		"type": "fun",
+		"id": 71217,
+		"character": 1,
+		"tokens": [1096, 1097, 1098],
+		"release": "y1-w1"
+	},
+	"lotr_fun1": {
+		"type": "fun",
+		"id": 71218,
+		"character": 19,
+		"tokens": [1042, 1043, 1044],
+		"release": "y1-w1"
+	},
+	"lotr_fun2": {
+		"type": "fun",
+		"id": 71219,
+		"character": 29,
+		"tokens": [1063, 1064, 1065],
+		"release": "y1-w1"
+	},
+	"lotr_fun3": {
+		"type": "fun",
+		"id": 71220,
+		"character": 18,
+		"tokens": [1039, 1040, 1041],
+		"release": "y1-w1"
+	},
+	"widard_of_oz_fun": {
+		"type": "fun",
+		"id": 71221,
+		"character": 42,
+		"tokens": [1036, 1037, 1038],
+		"release": "y1-w1"
+	},
+	"legends_of_chima_fun1": {
+		"type": "fun",
+		"id": 71222,
+		"character": 28,
+		"tokens": [1060, 1061, 1062],
+		"release": "y1-w1"
+	},
+	"legends_of_chima_fun2": {
+		"type": "fun",
+		"id": 71223,
+		"character": 11,
+		"tokens": [1021, 1022, 1023],
+		"release": "y1-w1"
+	},
+	"legends_of_chima_fun3": {
+		"type": "fun",
+		"id": 71232,
+		"character": 17,
+		"tokens": [1018, 1019, 1020],
+		"release": "y1-w1"
+	},
+	"doctor_who_level": {
+		"type": "level",
+		"id": 71204,
+		"character": 15,
+		"tokens": [1027, 1028, 1029, 1030, 1031, 1032],
+		"release": "y1-w2"
+	},
+	"ninjago_team": {
+		"type": "team",
+		"id": 71207,
+		"characters": [10, 24],
+		"tokens": [1069, 1070, 1071, 1075, 1076, 1077],
+		"release": "y1-w2"
+	},
+	"simpsons_fun1": {
+		"type": "fun",
+		"id": 71211,
+		"character": 7,
+		"tokens": [1003, 1004, 1005],
+		"release": "y1-w2"
+	},
+	"simpsons_fun2": {
+		"type": "fun",
+		"id": 71227,
+		"character": 27,
+		"tokens": [1057, 1058, 1059],
+		"release": "y1-w2"
+	},
+	"lego_movie_fun4": {
+		"type": "fun",
+		"id": 71231,
+		"character": 41,
+		"tokens": [1090, 1091, 1092],
+		"release": "y1-w2"
+	},
+	"green_arrow_polybag": {
+		"type": "polybag",
+		"id": 71342,
+		"character": 45,
+		"release": "y2-w6"
+	},
+	"supergirl_polybag": {
+		"type": "polybag",
+		"id": 71340,
+		"character": 46,
+		"release": "y2-w6"
+	}
+	
+}

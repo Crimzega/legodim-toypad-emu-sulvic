@@ -1,0 +1,164 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"type": "object",
+	"properties": {
+		"$schema": {}
+	},
+	"additionalProperties": {
+		"type": "object",
+		"properties": {
+			"type": {
+				"type": "string",
+				"enum": ["starter", "fun", "team", "level", "story", "polybag"]
+			},
+			"id": {
+				"default": 71000,
+				"minimum": 1,
+				"type": "integer"
+			},
+			"ids": {
+				"items": {
+					"default": 1,
+					"minimum": 1,
+					"type": "integer"
+				},
+				"maxItems": 6,
+				"type": "array"
+			},
+			"character": {
+				"default": 1,
+				"minimum": 1,
+				"type": "integer"
+			},
+			"tokens": {
+				"items": {
+					"default": 1,
+					"minimum": 1,
+					"type": "integer"
+				},
+				"type": "array"
+			},
+			"release": {
+				"default": "y1-w1",
+				"enum": ["y1-w1", "y1-w2", "y1-w3", "y1-y4", "y1-w5", "y2-w6", "y2-w7", "y2-w7_5", "y2-w8", "y2-w9"],
+				"type": "string"
+			}
+		},
+		"allOf": [{
+			"if": {
+				"properties": {
+					"type": {
+						"const": "starter"
+					}
+				},
+				"required": ["type"]
+			},
+			"then": {
+				"properties": {
+					"ids": {
+						"maxItems": 5,
+						"minItems": 5
+					},
+					"characters": {
+						"maxItems": 3,
+						"minItems": 3
+					},
+					"tokens": {
+						"maxItems": 3,
+						"minItems": 3
+					}
+				},
+				"required": ["ids", "characters", "tokens"]
+			}
+		}, {
+			"if": {
+				"properties": {
+					"type": {
+						"const": "fun"
+					}
+				},
+				"required": ["type"]
+			},
+			"then": {
+				"properties": {
+					"tokens": {
+						"maxItems": 3,
+						"minItems": 3
+					}
+				},
+				"required": ["id", "character", "tokens"]
+			}
+		}, {
+			"if": {
+				"properties": {
+					"type": {
+						"const": "team"
+					}
+				},
+				"required": ["type"]
+			},
+			"then": {
+				"properties": {
+					"characters": {
+						"maxItems": 2,
+						"minItems": 2
+					},
+					"tokens": {
+						"maxItems": 6,
+						"minItems": 6
+					}
+				},
+				"required": ["id", "characters", "tokens"]
+			}
+		}, {
+			"if": {
+				"properties": {
+					"type": {
+						"const": "level"
+					}
+				},
+				"required": ["type"]
+			},
+			"then": {
+				"properties": {
+					"tokens": {
+						"maxItems": 6,
+						"minItems": 6
+					}
+				},
+				"required": ["id", "character", "tokens"]
+			}
+		}, {
+			"if": {
+				"properties": {
+					"type": {
+						"const": "story"
+					}
+				},
+				"required": ["type"]
+			},
+			"then": {
+				"properties": {
+					"tokens": {
+						"maxItems": 3,
+						"minItems": 3
+					}
+				},
+				"required": ["id", "character", "tokens"]
+			}
+		}, {
+			"if": {
+				"properties": {
+					"type": {
+						"const": "polybag"
+					}
+				},
+				"required": ["type"]
+			},
+			"then": {
+				"required": ["id", "character"]
+			}
+		}],
+		"required": ["type", "release"]
+	}
+}
