@@ -1,5 +1,5 @@
 {
-	"$schema": "https://raw.githubusercontent.com/Crimzega/legodim-toypad-emu-sulvic/schemas/pack-schema.json",
+	"$schema": "https://raw.githubusercontent.com/Crimzega/legodim-toypad-emu-sulvic/refs/heads/main/schemas/pack-schema.json",
 	"starter": {
 		"type": "starter",
 		"ids": [71170, 71171, 71172, 71173, 71174],
@@ -181,6 +181,90 @@
 		"character": 41,
 		"tokens": [1090, 1091, 1092],
 		"release": "y1-w2"
+	},
+	"ghostbusters_level": {
+		"type": "level",
+		"id": 71228,
+		"character": 34,
+		"tokens": [1120, 1121, 1122, 1123, 1124, 1125],
+		"release": "y1-w3"
+	},
+	"dc_comics_team": {
+		"type": "team",
+		"id": 71229,
+		"characters": [20, 23],
+		"tokens": [1008, 1109, 1110, 1111, 1112, 1113],
+		"release": "y1-w3"
+	},
+	"bttf_fun": {
+		"type": "fun",
+		"id": 71230,
+		"character": 14,
+		"tokens": [1099, 1100, 1101],
+		"release": "y1-w3"
+	},
+	"ninjago_fun4": {
+		"type": "fun",
+		"id": 71234,
+		"character": 37,
+		"tokens": [1155, 1156, 1157],
+		"release": "y1-w3"
+	},
+	"doctor_who_fun": {
+		"type": "fun",
+		"id": 71238,
+		"character": 13,
+		"tokens": [1117, 1118, 1119],
+		"release": "y1-w3"
+	},
+	"midway_arcade_level": {
+		"type": "fun",
+		"id": 71235,
+		"character": 26,
+		"tokens": [1158, 1159, 1160],
+		"release": "y1-w4"
+	},
+	"ghostbusters_fun1": {
+		"type": "fun",
+		"id": 71233,
+		"character": 39,
+		"tokens": [1167, 1168, 1669],
+		"release": "y1-w4"
+	},
+	"dc_comics_fun3": {
+		"type": "fun",
+		"id": 71256,
+		"character": 40,
+		"tokens": [1114, 1115, 1116],
+		"release": "y1-w4"
+	},
+	"dc_comics_fun4": {
+		"type": "fun",
+		"id": 71237,
+		"character": 4,
+		"tokens": [1102, 1103, 1104],
+		"release": "y1-w4"
+	},
+	"ninjago_fun5": {
+		"type": "fun",
+		"id": 71239,
+		"character": 30,
+		"tokens": [1132, 1133, 1144],
+		"release": "y1-w5"
+	},
+	"dc_comics_fun5": {
+		"type": "fun",
+		"id": 71240,
+		"character": 6,
+		"tokens": [1105, 1106, 1107],
+		"release": "y1-w5"
+	},
+	"ghostbusters_fun2": {
+		"type": "fun",
+		"id": 71241,
+		"character": 35,
+		"tokens": [1164, 1165, 1166],
+		"release": "y1-w5"
 	},
 	"green_arrow_polybag": {
 		"type": "polybag",
