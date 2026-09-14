@@ -165,7 +165,7 @@
 						"minItems": 3
 					}
 				},
-				"required": ["id", "character2", "tokens"]
+				"required": ["id", "characters", "tokens"]
 			}
 		}, {
 			"if": {
