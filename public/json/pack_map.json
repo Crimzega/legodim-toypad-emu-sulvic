@@ -1,308 +1,308 @@
 {
 	"$schema": "https://raw.githubusercontent.com/Crimzega/legodim-toypad-emu-sulvic/refs/heads/main/schemas/pack-schema.json",
 	"starterpacks": {
-		"type": "starter",
+		"type": "starterpack",
 		"ids": [71170, 71171, 71172, 71173, 71174],
 		"characters": [1, 2, 3],
 		"tokens": [1006, 1007, 1008],
 		"release": "y1-w1"
 	},
 	"bttf_levelpack":{
-		"type": "level",
+		"type": "levelpack",
 		"id": 71201,
 		"character": 31,
 		"tokens": [1012, 1013, 1014, 1015, 1016, 1017],
 		"release": "y1-w1"
 	},
 	"simpsons_levelpack": {
-		"type": "level",
+		"type": "levelpack",
 		"id": 71202,
 		"character": 21,
 		"tokens": [1045, 1046, 1047, 1048, 1049, 1050],
 		"release": "y1-w1"
 	},
 	"portal2_levelpack": {
-		"type": "level",
+		"type": "levelpack",
 		"id": 71203,
 		"character": 9,
 		"tokens": [1081, 1082, 1083, 1084, 1085, 1086], 
 		"release": "y1-w1"
 	},
 	"jurrasic_world_teampack": {
-		"type": "team",
+		"type": "teampack",
 		"id": 71205,
 		"characters": [25, 33],
 		"tokens": [1051, 1052, 1053, 1054, 1055, 1056],
 		"release": "y1-w1"
 	},
 	"scooby_doo_teampack": {
-		"type": "team",
+		"type": "teampack",
 		"id": 71206,
 		"characters": [36, 38],
 		"tokens": [1066, 1067, 1068, 1087, 1088, 1089],
 		"release": "y1-w1"
 	},
 	"dc_comics_funpack1": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71209,
 		"character": 43,
 		"tokens": [1093, 1094, 1095],
 		"release": "y1-w1"
 	},
 	"dc_comics_funpack2": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71210,
 		"character": 12,
 		"tokens": [1024, 1025, 1026],
 		"release": "y1-w1"
 	},
 	"lego_movie_funpack1": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71212,
 		"character": 16,
 		"tokens": [1033, 1034, 1035],
 		"release": "y1-w1"
 	},
 	"lego_movie_funpack2": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71213,
 		"character": 5,
 		"tokens": [1000, 1001, 1002],
 		"release": "y1-w1"
 	},
 	"lego_movie_funpack3": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71214,
 		"character": 8,
 		"tokens": [1009, 1010, 1011],
 		"release": "y1-w1"
 	},
 	"ninjago_funpack1": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71215,
 		"character": 1,
 		"tokens": [1072, 1073, 1074],
 		"release": "y1-w1"
 	},
 	"ninjago_funpack2": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71216,
 		"character": 1,
 		"tokens": [1078, 1079, 1080],
 		"release": "y1-w1"
 	},
 	"ninjago_funpack3": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71217,
 		"character": 1,
 		"tokens": [1096, 1097, 1098],
 		"release": "y1-w1"
 	},
 	"lotr_funpack1": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71218,
 		"character": 19,
 		"tokens": [1042, 1043, 1044],
 		"release": "y1-w1"
 	},
 	"lotr_funpack2": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71219,
 		"character": 29,
 		"tokens": [1063, 1064, 1065],
 		"release": "y1-w1"
 	},
 	"lotr_funpack3": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71220,
 		"character": 18,
 		"tokens": [1039, 1040, 1041],
 		"release": "y1-w1"
 	},
 	"widard_of_oz_funpack": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71221,
 		"character": 42,
 		"tokens": [1036, 1037, 1038],
 		"release": "y1-w1"
 	},
 	"legends_of_chima_funpack1": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71222,
 		"character": 28,
 		"tokens": [1060, 1061, 1062],
 		"release": "y1-w1"
 	},
 	"legends_of_chima_funpack2": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71223,
 		"character": 11,
 		"tokens": [1021, 1022, 1023],
 		"release": "y1-w1"
 	},
 	"legends_of_chima_funpack3": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71232,
 		"character": 17,
 		"tokens": [1018, 1019, 1020],
 		"release": "y1-w1"
 	},
 	"doctor_who_levelpack": {
-		"type": "level",
+		"type": "levelpack",
 		"id": 71204,
 		"character": 15,
 		"tokens": [1027, 1028, 1029, 1030, 1031, 1032],
 		"release": "y1-w2"
 	},
 	"ninjago_teampack": {
-		"type": "team",
+		"type": "teampack",
 		"id": 71207,
 		"characters": [10, 24],
 		"tokens": [1069, 1070, 1071, 1075, 1076, 1077],
 		"release": "y1-w2"
 	},
 	"simpsons_funpack1": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71211,
 		"character": 7,
 		"tokens": [1003, 1004, 1005],
 		"release": "y1-w2"
 	},
 	"simpsons_funpack2": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71227,
 		"character": 27,
 		"tokens": [1057, 1058, 1059],
 		"release": "y1-w2"
 	},
 	"lego_movie_funpack4": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71231,
 		"character": 41,
 		"tokens": [1090, 1091, 1092],
 		"release": "y1-w2"
 	},
 	"ghostbusters_levelpack": {
-		"type": "level",
+		"type": "levelpack",
 		"id": 71228,
 		"character": 34,
 		"tokens": [1120, 1121, 1122, 1123, 1124, 1125],
 		"release": "y1-w3"
 	},
 	"dc_comics_teampack": {
-		"type": "team",
+		"type": "teampack",
 		"id": 71229,
 		"characters": [20, 23],
 		"tokens": [1008, 1109, 1110, 1111, 1112, 1113],
 		"release": "y1-w3"
 	},
 	"bttf_funpack": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71230,
 		"character": 14,
 		"tokens": [1099, 1100, 1101],
 		"release": "y1-w3"
 	},
 	"ninjago_funpack4": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71234,
 		"character": 37,
 		"tokens": [1155, 1156, 1157],
 		"release": "y1-w3"
 	},
 	"doctor_who_funpack": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71238,
 		"character": 13,
 		"tokens": [1117, 1118, 1119],
 		"release": "y1-w3"
 	},
 	"midway_arcade_levelpack": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71235,
 		"character": 26,
 		"tokens": [1158, 1159, 1160],
 		"release": "y1-w4"
 	},
 	"ghostbusters_funpack1": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71233,
 		"character": 39,
 		"tokens": [1167, 1168, 1669],
 		"release": "y1-w4"
 	},
 	"dc_comics_funpack3": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71256,
 		"character": 40,
 		"tokens": [1114, 1115, 1116],
 		"release": "y1-w4"
 	},
 	"dc_comics_funpack4": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71237,
 		"character": 4,
 		"tokens": [1102, 1103, 1104],
 		"release": "y1-w4"
 	},
 	"ninjago_funpack5": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71239,
 		"character": 30,
 		"tokens": [1132, 1133, 1144],
 		"release": "y1-w5"
 	},
 	"dc_comics_funpack5": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71240,
 		"character": 6,
 		"tokens": [1105, 1106, 1107],
 		"release": "y1-w5"
 	},
 	"ghostbusters_funpack2": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71241,
 		"character": 35,
 		"tokens": [1164, 1165, 1166],
 		"release": "y1-w5"
 	},
 	"ghostbusters_2016_storypack": {
-		"type": "story",
+		"type": "storypack",
 		"id": 71242,
 		"character": 47,
 		"tokens": [1197, 1198, 1199],
 		"release": "y2-w6"
 	},
 	"adventure_time_levelpack": {
-		"type": "level",
+		"type": "levelpack",
 		"id": 71245,
 		"character": 48,
 		"tokens": [1170, 1171, 1172, 1176, 1177, 1178],
 		"release": "y2-w6"
 	},
 	"mission_impossible_levelpack": {
-		"type": "level",
+		"type": "levelpack",
 		"id": 71348,
 		"character": 49,
 		"tokens": [1212, 1213, 1214, 1215, 1216, 1217],
 		"release": "y2-w6"
 	},
 	"adventure_time_teampack": {
-		"type": "team",
+		"type": "teampack",
 		"id": 71426,
 		"characters": [50, 51],
 		"tokens": [1173, 1174, 1175, 1179, 1180, 1181],
 		"release": "y2-w6"
 	},
 	"harry_potter_teampack": {
-		"type": "team",
+		"type": "teampack",
 		"id": 71247,
 		"characters": [52, 53],
 		"tokens": [1206, 1207, 1208, 1209, 1210, 1211],
 		"release": "y2-w6"
 	},
 	"the_ateam_funpack": {
-		"type": "fun",
+		"type": "funpack",
 		"id": 71251,
 		"character": 55,
 		"tokens": [1185, 1186, 1187],
@@ -319,6 +319,117 @@
 		"id": 71340,
 		"character": 46,
 		"release": "y2-w6"
+	},
+	"fantastic_beasts_storypack": {
+		"type": "storypack",
+		"id": 71253,
+		"character": 56,
+		"tokens": [1191, 1192, 1193],
+		"release": "y2-w7"
+	},
+	"sonic_levelpack": {
+		"type": "levelpack",
+		"id": 71244,
+		"character": 57,
+		"tokens": [1218, 1219, 1220, 1221, 1222, 1223],
+		"release": "y2-w7"
+	},
+	"gremlins_teampack": {
+		"type": "teampack",
+		"id": 71256,
+		"characters": [59, 60],
+		"tokens": [1200, 1201, 1202, 1203, 1204, 1205],
+		"release": "y2-w7"
+	},
+	"et_funpack": {
+		"type": "funpack",
+		"id": 71258,
+		"character": 61,
+		"tokens": [1188, 1189, 1190],
+		"release": "y2-w7"
+	},
+	"fantastic_beasts_funpack": {
+		"type": "funpack",
+		"id": 71257,
+		"character": 62,
+		"tokens": [1194, 1195, 1196],
+		"release": "y2-w7"
+	},
+	"lego_batman_movie_storypack": {
+		"type": "story2pack",
+		"id": 71264,
+		"characters": [64, 65],
+		"tokens": [1233, 1234, 1235],
+		"release": "y2-w7_5"
+	},
+	"lego_batman_movie_funpack": {
+		"type": "funpack",
+		"id": 71344,
+		"character": 69,
+		"tokens": [1230, 1231, 1232],
+		"release": "y2-w7_5"
+	},
+	"knight_rider_funpack": {
+		"type": "funpack",
+		"id": 71286,
+		"character": 54,
+		"tokens": [1224, 1225, 1226],
+		"release": "y2-w7_5"
+	},
+	"adventure_time_funpack": {
+		"type": "funpack",
+		"id": 71285,
+		"character": 63,
+		"tokens": [1182, 1183, 1184],
+		"release": "y2-w7_5"
+	},
+	"goonies_levelpack": {
+		"type": "levelpack",
+		"id": 71267,
+		"character": 66,
+		"tokens": [1236, 1237, 1238, 1239, 1240, 1241],
+		"release": "y2-w8"
+	},
+	"lego_city_undercover_funpack": {
+		"type": "funpack",
+		"id": 71286,
+		"character": 68,
+		"tokens": [1227, 1228, 1229],
+		"release": "y2-w8"
+	},
+	"harry_potter_funpack": {
+		"type": "funpack",
+		"id": 71285,
+		"character": 67,
+		"tokens": [1242, 1243, 1244],
+		"release": "y2-w8"
+	},
+	"ttg_teampack": {
+		"type": "teampack",
+		"id": 71255,
+		"characters": [70, 71],
+		"tokens": [1257, 1258, 1259, 1260, 1261, 1262],
+		"release": "y2-w9"
+	},
+	"ppg_teampack": {
+		"type": "teampack",
+		"id": 71346,
+		"characters": [74, 75],
+		"tokens": [1249, 1250, 1253, 1254, 1255, 1256],
+		"release": "y2-w9"
+	},
+	"beetlejuice_funpack": {
+		"type": "funpack",
+		"id": 71349,
+		"character": 72,
+		"tokens": [1245, 1246, 1247],
+		"release": "y2-w9"
+	},
+	"ppg_funpack": {
+		"type": "funpack",
+		"id": 71343,
+		"character": 76,
+		"tokens": [1251, 1252, 1253],
+		"release": "y2-w9"
 	}
-	
 }

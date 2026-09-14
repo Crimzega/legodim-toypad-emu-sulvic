@@ -9,7 +9,7 @@
 		"properties": {
 			"type": {
 				"type": "string",
-				"enum": ["starter", "fun", "team", "level", "story", "polybag"]
+				"enum": ["starterpack", "funpack", "teampack", "levelpack", "storypack", "story2pack", "polybag"]
 			},
 			"id": {
 				"default": 71000,
@@ -48,7 +48,7 @@
 			"if": {
 				"properties": {
 					"type": {
-						"const": "starter"
+						"const": "starterpack"
 					}
 				},
 				"required": ["type"]
@@ -74,7 +74,7 @@
 			"if": {
 				"properties": {
 					"type": {
-						"const": "fun"
+						"const": "funpack"
 					}
 				},
 				"required": ["type"]
@@ -92,7 +92,7 @@
 			"if": {
 				"properties": {
 					"type": {
-						"const": "team"
+						"const": "teampack"
 					}
 				},
 				"required": ["type"]
@@ -114,7 +114,7 @@
 			"if": {
 				"properties": {
 					"type": {
-						"const": "level"
+						"const": "levelpack"
 					}
 				},
 				"required": ["type"]
@@ -132,7 +132,7 @@
 			"if": {
 				"properties": {
 					"type": {
-						"const": "story"
+						"const": "storypack"
 					}
 				},
 				"required": ["type"]
@@ -145,6 +145,27 @@
 					}
 				},
 				"required": ["id", "character", "tokens"]
+			}
+		}, {
+			"if": {
+				"properties": {
+					"type": {
+						"const": "story2pack"
+					}
+				},
+				"required": ["type"]
+			},
+			"then": {
+				"properties": {
+					"characters": {
+						"minItems": 2
+					},
+					"tokens": {
+						"maxItems": 3,
+						"minItems": 3
+					}
+				},
+				"required": ["id", "character2", "tokens"]
 			}
 		}, {
 			"if": {
