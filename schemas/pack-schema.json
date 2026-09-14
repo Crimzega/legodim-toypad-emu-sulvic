@@ -150,7 +150,7 @@
 			"if": {
 				"properties": {
 					"type": {
-						"const": "story2pack"
+						"const": "storypack2"
 					}
 				},
 				"required": ["type"]
