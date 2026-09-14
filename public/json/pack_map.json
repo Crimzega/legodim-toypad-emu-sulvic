@@ -356,7 +356,7 @@
 		"release": "y2-w7"
 	},
 	"lego_batman_movie_storypack": {
-		"type": "story2pack",
+		"type": "storypack2",
 		"id": 71264,
 		"characters": [64, 65],
 		"tokens": [1233, 1234, 1235],

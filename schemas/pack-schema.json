@@ -9,7 +9,7 @@
 		"properties": {
 			"type": {
 				"type": "string",
-				"enum": ["starterpack", "funpack", "teampack", "levelpack", "storypack", "story2pack", "polybag"]
+				"enum": ["starterpack", "funpack", "teampack", "levelpack", "storypack", "storypack2", "polybag"]
 			},
 			"id": {
 				"default": 71000,
