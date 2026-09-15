@@ -36,14 +36,19 @@
 		"socket.io"
 	],
 	"dependencies": {
-		"async": "^3.2.0",
-		"debug": "^4.4.0",
-		"express": "^5.2.0",
-		"node-hid": "^3.4.0",
-		"pad": "^3.3.0",
-		"serialport": "^13.0.0",
-		"socket.io": "^4.8.0",
-		"usb": "^3.1.0"
+		"async": "3.2.6",
+		"debug": "4.4.3",
+		"dotenv": "17.4.2",
+		"ejs": "6.0.1",
+		"express": "5.2.1",
+		"express-rate-limit": "8.7.0",
+		"helmet": "8.3.0",
+		"morgan": "1.12.1",
+		"node-hid": "3.4.0",
+		"pad": "3.3.0",
+		"serialport": "git+https://github.com/serialport/node-serialport.git#9fa68817b0b220d24d7fab9ce0c5cce7c09882a4",
+		"socket.io": "4.8.3",
+		"usb": "3.1.0"
 	},
 	"optionalDependencies": {
 		"bufferutil": "^4.1.0",
@@ -52,9 +57,12 @@
 	"devDependencies": {
 		"@babel/core": "^8.0.0",
 		"@babel/preset-env": "8.0.0",
+		"array-shuffle": "^4.1.0",
 		"babelify": "^10.0.0",
 		"browserify": "^17.0.0",
 		"rimraf": "^6.1.0",
+		"standard": "^17.1.0",
+		"tape": "^5.10.0",
 		"terser": "^5.51.0",
 		"watchify": "^4.0.0"
 	}
